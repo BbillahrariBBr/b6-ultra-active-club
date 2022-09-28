@@ -1,0 +1,56 @@
+[
+  {
+    "id": "6334697f5e04cf2faca48de1",
+    "index": 0,
+    "isAdded": false,
+    "img": "https://img.freepik.com/free-vector/data-science-programming_39422-1055.jpg?w=400&t=st=1664380449~exp=1664381049~hmac=e0c70a54ceae7936e986905724b1a6a8edf4158c519eaa8db6e6fc6b5a25d97b",
+    "duration": 120,
+    "time": 3,
+    "name": "Data Science"
+  },
+  {
+    "id": "6334697f97c3392406005a54",
+    "index": 1,
+    "isAdded": false,
+    "img": "https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg?w=400&ext=jpg&ga=GA1.2.126987474.1659115628",
+    "duration": 90,
+    "time": 2,
+    "name": "JavaScript"
+  },
+  {
+    "id": "6334697fc79f3e112cb7b3a8",
+    "index": 2,
+    "isAdded": false,
+    "img": "https://img.freepik.com/free-photo/online-web-design_53876-95309.jpg?w=400&ext=jpg&ga=GA1.2.126987474.1659115628",
+    "duration": 60,
+    "time": 1,
+    "name": "HTML"
+  },
+  {
+    "id": "6334697f20c4b51e48a26dbb",
+    "index": 3,
+    "isAdded": false,
+    "img": "https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?w=400&ext=jpg&ga=GA1.2.126987474.1659115628",
+    "duration": 120,
+    "time": 2,
+    "name": "Algorithm"
+  },
+  {
+    "id": "6334697fcfe07bc9c0c851d4",
+    "index": 4,
+    "isAdded": false,
+    "img": "https://img.freepik.com/free-vector/wireframe-robot-ai-artificial-intelligence-robotic-hand-machine-learning-cyber-mind-domination-concept_127544-852.jpg?w=400&ext=jpg&ga=GA1.2.126987474.1659115628",
+    "duration": 140,
+    "time": 3,
+    "name": "AI"
+  },
+  {
+    "id": "6334697f4690cb30ed57f649",
+    "index": 5,
+    "isAdded": false,
+    "img": "https://img.freepik.com/free-vector/wireframe-robot-ai-artificial-intelligence-robotic-hand-machine-learning-cyber-mind-domination-concept_127544-852.jpg?w=400&ext=jpg&ga=GA1.2.126987474.1659115628",
+    "duration": 100,
+    "time": 2,
+    "name": "CMS"
+  }
+]
