@@ -12,7 +12,9 @@ const Courses = () => {
         <div>
             <h1>Courses Component Added length {courses.length}</h1>
             {
-                courses.map(course => <Course name={course.name}></Course>)
+                courses.map(course => <Course
+                    key={course.id}
+                    course={course}></Course>)
             }
 
         </div>
