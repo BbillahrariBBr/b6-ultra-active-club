@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -8,7 +8,7 @@ const SideContainerMiddle = () => {
             position: toast.POSITION.TOP_CENTER
         })
     }
-    const [time, setTime] = useState(0)
+    // const [time, setTime] = useState(0)
 
 
     return (
@@ -48,7 +48,7 @@ const SideContainerMiddle = () => {
                     <div className="card bg-slate-100 p-3 mt-5 text-center">
                         <div className='flex'>
                             <p className='font-bold text-xl'>Break Time</p>
-                            <p className='font-light text-lg text-slate-500 ml-3'><span>{time}</span> min</p>
+                            <p className='font-light text-lg text-slate-500 ml-3'><span>0</span> min</p>
                         </div>
                     </div>
                 </div>
