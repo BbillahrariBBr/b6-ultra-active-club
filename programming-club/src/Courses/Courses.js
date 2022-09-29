@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import './Courses.css'
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
@@ -9,13 +10,16 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div>
+        <div >
             <h1>Courses Component Added length {courses.length}</h1>
-            {
-                courses.map(course => <Course
-                    key={course.id}
-                    course={course}></Course>)
-            }
+            <div className='courses'>
+                {
+                    courses.map(course => <Course
+                        key={course.id}
+                        course={course}></Course>)
+                }
+            </div>
+
 
         </div>
     );
