@@ -10,15 +10,20 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div >
-            <h1>Courses Component Added length {courses.length}</h1>
-            <div className='courses'>
-                {
-                    courses.map(course => <Course
-                        key={course.id}
-                        course={course}></Course>)
-                }
+        <div className='container'>
+            <div className='course-container'>
+                <div className='courses'>
+                    {
+                        courses.map(course => <Course
+                            key={course.id}
+                            course={course}></Course>)
+                    }
+                </div>
             </div>
+            <div className='side-container'>
+                <h3>crt</h3>
+            </div>
+
 
 
         </div>
