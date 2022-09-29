@@ -1,7 +1,15 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SidebarContainerBottom = () => {
+    const msg = () => {
+        toast.success('Congratulation!! Activity completed!!', {
+            position: toast.POSITION.TOP_CENTER
+        })
+    }
     return (
+
         <div className='mt-10'>
             <div>
                 <p className='font-semibold text-lg ml-1'>Work Details</p>
@@ -22,7 +30,8 @@ const SidebarContainerBottom = () => {
                 </div>
             </div>
             <div className="card p-3 mt-5 text-center">
-                <button className="btn btn-primary">Activity completed</button>
+                <button className="btn btn-primary" onClick={msg}>Activity completed</button>
+                <ToastContainer></ToastContainer>
             </div>
 
 
