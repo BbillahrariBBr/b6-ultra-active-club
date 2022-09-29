@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import SideContainerMiddle from '../SideContainerMiddle/SideContainerMiddle';
 import SideContainerTop from '../SideContainerTop/SideContainerTop';
 import './Courses.css'
 
@@ -13,7 +14,7 @@ const Courses = () => {
     return (
         <div className='container'>
             <div className='course-container'>
-                <div className='courses'>
+                <div className='courses bg-slate-200'>
                     {
                         courses.map(course => <Course
                             key={course.id}
@@ -23,6 +24,7 @@ const Courses = () => {
             </div>
             <div className='side-container'>
                 <SideContainerTop></SideContainerTop>
+                <SideContainerMiddle></SideContainerMiddle>
             </div>
 
 

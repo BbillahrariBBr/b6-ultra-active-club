@@ -8,7 +8,7 @@ const SideContainerTop = () => {
                 <p className='font-semibold text-lg ml-1'>BBillah</p>
             </div>
             <div className='info'>
-                <div className="card bg-slate-400 grid grid-cols-3 p-3 m-1 text-center">
+                <div className="card bg-slate-100 grid grid-cols-3 p-3 m-1 text-center">
                     <div >
                         <p><span className='font-bold text-xl'>52</span><sub>kg</sub></p>
                         <p className='text-sm'>Weights</p>
