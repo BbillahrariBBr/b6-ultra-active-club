@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const SidebarContainerBottom = () => {
+    // console.log(props);
     const msg = () => {
         toast.success('Congratulation!! Activity completed!!', {
             position: toast.POSITION.TOP_CENTER
         })
     }
+    const [time, setTime] = useState(0);
+
     return (
 
         <div className='mt-10'>
@@ -18,7 +21,7 @@ const SidebarContainerBottom = () => {
                 <div className="card bg-slate-100 p-3 m-1 text-center">
                     <div className='flex'>
                         <p className='font-bold text-xl'>Code Time</p>
-                        <p className='font-light text-lg text-slate-500 ml-3'><span>0</span> hrs</p>
+                        <p className='font-light text-lg text-slate-500 ml-3'><span>{time}</span> hrs</p>
                     </div>
                 </div>
 

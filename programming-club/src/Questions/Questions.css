@@ -4,3 +4,11 @@
     gap: 20px;
 
 }
+
+@media screen and (max-width: 700px) {
+    .questions {
+        display: grid;
+        grid-template-columns: 1fr
+    }
+
+}

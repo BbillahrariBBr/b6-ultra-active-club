@@ -9,7 +9,8 @@ const Questions = () => {
         fetch('questions.json')
             .then(res => res.json())
             .then(data => setQuestions(data))
-    }, [])
+    }, []);
+
     return (
         <div className='p-3'>
             <p className='text-center text-3xl font-bold mb-6'>Questions</p>

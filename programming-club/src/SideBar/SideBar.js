@@ -4,11 +4,12 @@ import SideContainerMiddle from '../SideContainerMiddle/SideContainerMiddle';
 import SideContainerTop from '../SideContainerTop/SideContainerTop';
 
 const SideBar = () => {
+    console.log();
     return (
         <div className='sticky top-0'>
             <SideContainerTop></SideContainerTop>
             <SideContainerMiddle></SideContainerMiddle>
-            <SidebarContainerBottom></SidebarContainerBottom>
+            {/* <SidebarContainerBottom></SidebarContainerBottom> */}
         </div>
     );
 };
