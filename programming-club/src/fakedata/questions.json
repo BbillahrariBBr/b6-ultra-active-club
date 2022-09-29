@@ -1,0 +1,20 @@
+[
+  {
+    "id": "6334697f5e04",
+    "index": 0,
+    "ans": "React is a library that allows you to write JavaScript components. It uses a syntax similar to XML, and the markup of the components is a mix between HTML and XML.It uses a technology called the “Virtual DOM” to manage updates. Virtual DOM is just another way of saying a big object with all the components rendered on the page and their properties. Whenever one of them changes, React knows what to do.For event handling, React registers a global event handler (on the HTML or Body element) and whenever events come through that listener, it takes on the responsibility to propagate the proper events and trigger the right handlers within components further down the chain.",
+    "question": "How Does React Work?"
+  },
+  {
+    "id": "6334697f97c3",
+    "index": 1,
+    "ans": "IN props: The Data is passed from one component to another. It is Immutable (cannot be modified).Props can be used with state and functional components.Props are read-only.\n In state: The Data is passed within the component only.It is Mutable ( can be modified).State can be used only with the state components/class component (Before 16.0).State is both read and write.",
+    "question": "Difference between props and state"
+  },
+  {
+    "id": "6334697fc79f",
+    "index": 2,
+    "ans": "Running on state change:\n 1/ validating input field. \n2/live filtering. \n3/ trigger animation on new array value.\n Running on props change:1/ update paragraph list on fetched API data update.\n 2/update paragraph list on fetched API data update.",
+    "question": "What are  the uses of useeffect other than loading data."
+  }
+]

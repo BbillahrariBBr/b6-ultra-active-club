@@ -2,7 +2,7 @@ import React from 'react';
 import './Course.css'
 
 const Course = (props) => {
-    console.log(props);
+    // console.log(props);
     const { name, disc, img, time, duration } = props.course;
     return (
         <div className='course'>
@@ -18,7 +18,6 @@ const Course = (props) => {
                     </div>
                 </div>
             </div>
-
 
         </div>
     );
