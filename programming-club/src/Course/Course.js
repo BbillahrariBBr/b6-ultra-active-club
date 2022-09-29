@@ -11,10 +11,10 @@ const Course = (props) => {
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>
                     <p>{disc.slice(0, 100)}</p>
-                    <p className='font-semibold text-lg'>Course Duration: {duration}</p>
-                    <p className='font-semibold text-lg'>Time required: {time}</p>
+                    <p className='font-semibold text-lg'>Course Duration: {duration} hrs</p>
+                    <p className='font-semibold text-lg'>Time required: {time} hrs</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Added to list</button>
+                        <button className="btn btn-primary">Add to list</button>
                     </div>
                 </div>
             </div>

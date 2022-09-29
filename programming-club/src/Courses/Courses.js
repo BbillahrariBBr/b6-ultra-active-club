@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import SideBar from '../SideBar/SideBar';
+import SidebarContainerBottom from '../SidebarContainerBottom/SidebarContainerBottom';
 import SideContainerMiddle from '../SideContainerMiddle/SideContainerMiddle';
 import SideContainerTop from '../SideContainerTop/SideContainerTop';
 import './Courses.css'
@@ -23,11 +25,8 @@ const Courses = () => {
                 </div>
             </div>
             <div className='side-container'>
-                <SideContainerTop></SideContainerTop>
-                <SideContainerMiddle></SideContainerMiddle>
+                <SideBar></SideBar>
             </div>
-
-
 
         </div>
     );
