@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
+import SideContainerTop from '../SideContainerTop/SideContainerTop';
 import './Courses.css'
 
 const Courses = () => {
@@ -21,7 +22,7 @@ const Courses = () => {
                 </div>
             </div>
             <div className='side-container'>
-                <h3>crt</h3>
+                <SideContainerTop></SideContainerTop>
             </div>
 
 
